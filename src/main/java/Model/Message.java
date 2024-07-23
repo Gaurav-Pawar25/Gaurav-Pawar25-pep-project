@@ -38,6 +38,7 @@ public class Message {
      * @param time_posted_epoch
      */
     public Message(int posted_by, String message_text, long time_posted_epoch) {
+        //this.message_id = message_id;
         this.posted_by = posted_by;
         this.message_text = message_text;
         this.time_posted_epoch = time_posted_epoch;
